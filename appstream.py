@@ -4,7 +4,7 @@ import string
 import nltk
 import streamlit as st
 import time
-
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps=PorterStemmer()
